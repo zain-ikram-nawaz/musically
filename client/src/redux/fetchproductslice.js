@@ -7,7 +7,7 @@ const initialState = {
 
 export const fetchData = createAsyncThunk("fetchData", async () => {
   try {
-    const result = await fetch("http://localhost:8000/sendproduct");
+    const result = await fetch("https://musically-mu.vercel.app/sendproduct");
 
     return result.json();
   } catch (error) {
