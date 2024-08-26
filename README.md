@@ -13,7 +13,7 @@ Welcome to **The Headphone Store**, an online shop where you can browse and purc
 
 
 
-![Alt Text](client/Capture 1.PNG)
+![Alt Text](client/Capture.PNG)
 
 
 ## Technologies Used
