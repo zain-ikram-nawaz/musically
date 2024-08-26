@@ -158,7 +158,6 @@ const makePayment = async()=>{
   const response = await fetch("https://musically-mu.vercel.app/create-checkout-session",{
     method: "POST",
     headers: {  
-         'Access-Control-Allow-Origin': '*',
       "Content-Type": "application/json"
     },
     body:JSON.stringify(cartItem),
