@@ -155,7 +155,7 @@ function removeCart(itemId) {
 const makePayment = async()=>{
   const stripe = await loadStripe("pk_test_51OqY7TAM6LXkQCi4wf9x8UPoUfrAVQuDoI8Jclx4Y2V6rJGOpgLSWLxdpnAh2gvahI6oRtrd78pCS8gRhe5IUKjF00EsEV7iMw")
   
-  const response = await fetch("http://localhost:8000/create-checkout-session",{
+  const response = await fetch("https://musically-mu.vercel.app/create-checkout-session",{
     method: "POST",
     headers: {  
       "Content-Type": "application/json"
@@ -209,7 +209,7 @@ if (!cartItem) {
       </td>
       <td className="flex justify-center">
         <Image
-          src={`http://localhost:8000/public/${item.image[0].name}`}
+          src={`https://musically-mu.vercel.app/public/${item.image[0].name}`}
           width={100}
           height={100}
           alt="image8"
