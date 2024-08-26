@@ -108,7 +108,7 @@ export default function Singleitem() {
                <div className="md:p-8">
                 <div className="grid sm:grid-cols-1 md:grid-cols-2  rounded-md ">
             <div>
-           <div className=""> <Image className="md:h-[50vh] sm:h-[30vh]" src={`http://localhost:8000/public/${customImage}`}  width={500} height={500} alt="image"/></div>
+           <div className=""> <Image className="md:h-[50vh] sm:h-[30vh]" src={`https://musically-mu.vercel.app/public/${customImage}`}  width={500} height={500} alt="image"/></div>
           
             </div>
                   <div className="w-4/4 sm:text-sm sm:ml-4 md:text-base">
@@ -150,7 +150,7 @@ export default function Singleitem() {
              return (
                
                <div className=" md:w-40 md:h-[11vh] sm:w-20 sm:h-[11vh] relative" key={image._id}>
-              <Image className="absolute w-full h-full  bg-cover bg-center" src={`http://localhost:8000/public/${image.name}`} width={200} height={200} alt="image4" onClick={()=>{
+              <Image className="absolute w-full h-full  bg-cover bg-center" src={`https://musically-mu.vercel.app/public/${image.name}`} width={200} height={200} alt="image4" onClick={()=>{
               imageZoom(image.name)
               }}></Image>
               </div>
