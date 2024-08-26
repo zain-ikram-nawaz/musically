@@ -29,7 +29,7 @@ if(!data){
 <div className="md:h-[40vh] w-[15vw] sm:w-full sm:h-[35vh] ]">
 
     <div className="image-div h-[22vh] w-[15vw] relative sm:w-[100%] sm:h-[15vh] md:h-[22vh]">
-      <Image className="absolute w-[100%] h-[100%]" src={`http://localhost:8000/public/${item.image[0].name}`} width={200} height={200} alt="image8"></Image>
+      <Image className="absolute w-[100%] h-[100%]" src={`https://musically-mu.vercel.app/public/${item.image[0].name}`} width={200} height={200} alt="image8"></Image>
     </div>
     <div className=" space-y-2">
 
