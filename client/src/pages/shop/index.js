@@ -138,7 +138,7 @@ const Shop = (props) => {
                     <div className="image-div h-[22vh] w-[15vw] relative sm:w-[100%] sm:h-[15vh] md:h-[22vh]">
                       <Image
                         className="absolute w-[100%] h-[100%]"
-                        src={`http://localhost:8000/public/${item.image[0].name}`}
+                        src={`https://musically-mu.vercel.app/public/${item.image[0].name}`}
                         width={200}
                         height={200}
                         alt="image11"
