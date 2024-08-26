@@ -22,11 +22,7 @@ const path = require('path');
 const app = express();
 app.use(cookieParser());
 app.use(
-  cors({
-    origin: ["https://musically-cxet.vercel.app"],
-    credentials: true,
-    method: ["GET", "POST"],
-  })
+  cors()
 );
 mongoose
   .connect(Database_url)
