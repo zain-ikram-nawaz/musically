@@ -155,7 +155,7 @@ function removeCart(itemId) {
 const makePayment = async()=>{
   const stripe = await loadStripe("pk_test_51OqY7TAM6LXkQCi4wf9x8UPoUfrAVQuDoI8Jclx4Y2V6rJGOpgLSWLxdpnAh2gvahI6oRtrd78pCS8gRhe5IUKjF00EsEV7iMw")
   
-  const response = await fetch("https://www.youtube.com/watch?v=_4Ft9UIKzwk",{
+  const response = await fetch("https://musically-mu.vercel.app/create-checkout-session",{
     method: "POST",
     headers: {  
       "Content-Type": "application/json"
