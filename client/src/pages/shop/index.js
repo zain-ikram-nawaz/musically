@@ -43,7 +43,7 @@ const Shop = (props) => {
   }
   return (
     <div className="">
-      <div className="bg-[url('/s2.jpg')] h-[40vh] bg-cover bg-center">
+      <div className="bg-[url('https://images.unsplash.com/photo-1658874379939-a05eb13b0750?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] h-[40vh] bg-cover bg-center">
         <div className=" text-white text-[4rem] font-semibold ">
           <p className="capitalize flex justify-center items-center h-96 sm:text-2xl md:text-3xl lg:text-6xl">
             sale 20% off
