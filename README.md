@@ -11,6 +11,11 @@ Welcome to **The Headphone Store**, an online shop where you can browse and purc
 - **Image Uploads**: Use Multer for uploading product images.
 - **Smooth User Experience**: Swiper is used for smooth image sliders, enhancing the user experience.
 
+
+
+![Alt Text](client/Capture 1.PNG)
+
+
 ## Technologies Used
 
 - **Frontend**:
@@ -32,7 +37,7 @@ Welcome to **The Headphone Store**, an online shop where you can browse and purc
 - **Image Handling**:
   - Multer
     
-![Alt Text](client/Capture 1.PNG)
+
 
 ## Getting Started
 
