@@ -24,8 +24,6 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: "https://finalclient.vercel.app",
-   "https://finalclient.vercel.app/cart",
-    credentials: true,
     method: ["GET", "POST"],
   })
 );
@@ -61,7 +59,7 @@ const lineItems = data.map((product)=>({
     currency:"pkr",
     product_data: {
 name: product.title,
-images:[`http://localhost:8000//public/${product.image[0].name}`],
+images:[`https://musically-mu.vercel.app/public/${product.image[0].name}`],
    
     },
     unit_amount:Math.round(product.price*100),
