@@ -42,8 +42,8 @@ app.use(express.static("images"));
 app.use(bodyParser.urlencoded({ extended: false, limit: "60mb" }));
 
 app.options('*', cors());
-app.options('/sendproduct','/create-checkout-session', cors());
-app.options('sendproduct','create-checkout-session', cors());
+app.options('/sendproduct',cors());
+app.options('sendproduct', cors());
 // app.options('sendproduct', cors());
 // payment Method 
 app.post("/create-checkout-session",async(req,res,next)=>{
