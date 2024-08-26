@@ -23,7 +23,8 @@ const app = express();
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://finalclient.vercel.app"],
+    origin: "https://finalclient.vercel.app",
+   "https://finalclient.vercel.app/cart",
     credentials: true,
     method: ["GET", "POST"],
   })
@@ -44,9 +45,9 @@ app.use(bodyParser.urlencoded({ extended: false, limit: "60mb" }));
 app.options('*', cors());
 app.options('/sendproduct',cors());
 app.options('/create-checkout-session',cors());
-app.options('create-checkout-session',cors());
-app.options('sendproduct', cors());
-// app.options('sendproduct', cors());
+
+
+
 // payment Method 
 app.post("/create-checkout-session",async(req,res,next)=>{
 const data = req.body
