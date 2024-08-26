@@ -1,7 +1,7 @@
 # The Headphone Store
 
 Welcome to **The Headphone Store**, an online shop where you can browse and purchase high-quality headphones, earbuds, and other audio equipment. This project is a fully functional e-commerce web application designed to deliver a seamless shopping experience.
-
+![Alt Text]()
 ## Features
 
 - **Product Listing**: View a wide range of audio products with detailed descriptions, prices, and images.
