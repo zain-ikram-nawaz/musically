@@ -43,6 +43,8 @@ app.use(bodyParser.urlencoded({ extended: false, limit: "60mb" }));
 
 app.options('*', cors());
 app.options('/sendproduct',cors());
+app.options('/create-checkout-session',cors());
+app.options('create-checkout-session',cors());
 app.options('sendproduct', cors());
 // app.options('sendproduct', cors());
 // payment Method 
