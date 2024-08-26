@@ -61,7 +61,7 @@ const Explore = (props) => {
                 </div>
               </div>
             </div></SwiperSlide>
-          <SwiperSlide> <div className="title bg-[url('https://ucarecdn.com/c798f5cd-e39c-4e41-b54b-e441e65cfb5b/-/preview/')]  bg-cover bg-center object-fit text-white flex items-end sm:justify-start h-[20vh] w-[15vw] shadow-2xl sm:w-[100%] border-2">
+          <SwiperSlide> <div className="title bg-[url('https://th.bing.com/th/id/OIP.TtpxtlYiwDTVzn2vw96tWAHaEK?rs=1&pid=ImgDetMain')]  bg-cover bg-center object-fit text-white flex items-end sm:justify-start h-[20vh] w-[15vw] shadow-2xl sm:w-[100%] border-2">
               <div className="">
                 <div className="text" data-swiper-parallax="-100 sm:w-[100%]">
                 <p className="text-2xl p-4">
