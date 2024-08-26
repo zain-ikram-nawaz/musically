@@ -27,7 +27,7 @@ export default function AddProducts() {
         //   console.log(key, value);
         // }
     try {
-      const res = await fetch("http://localhost:8000/addproduct", {
+      const res = await fetch("https://musically-mu.vercel.app/addproduct", {
         method: "POST",
     
         body: formdata,
