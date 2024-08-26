@@ -22,7 +22,11 @@ const path = require('path');
 const app = express();
 app.use(cookieParser());
 app.use(
-  cors()
+  cors({
+    origin: ["https://finalclient.vercel.app"],
+    credentials: true,
+    method: ["GET", "POST"],
+  })
 );
 mongoose
   .connect(Database_url)
